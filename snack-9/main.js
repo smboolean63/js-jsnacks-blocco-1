@@ -6,10 +6,10 @@ const arrayOneLength = Math.floor(Math.random() * 20) + 1;
 const arrayTwoLength = Math.floor(Math.random() * 20) + 1;
 
 for( let i = 0; i < arrayOneLength; i++ ) {
-    arrayOne.push(Math.floor(Math.random() * 100));
+    arrayOne.push(Math.floor(Math.random() * 100) + 1);
 }
 for( let i = 0; i < arrayTwoLength; i++ ) {
-    arrayTwo.push(Math.floor(Math.random() * 100));
+    arrayTwo.push(Math.floor(Math.random() * 100) + 1);
 }
 console.log(arrayOne, arrayTwo);
 
